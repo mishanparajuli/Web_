@@ -1,0 +1,26 @@
+<body>
+    <header>
+        <nav class="flex items-center justify-between bg-gray-800 p-4 text-white">
+            <!-- Hamburger Button for Mobile -->
+            <span class="hamburger-btn material-symbols-rounded block md:hidden cursor-pointer">
+                menu
+            </span>
+            <!-- Logo -->
+            <a href="#" class="logo text-2xl font-bold">
+                SMS
+            </a>
+            <!-- Links for Desktop -->
+            <ul class="links hidden md:flex space-x-6">
+                <li><a href="index.php" class="hover:text-gray-400">Home</a></li>
+                <li><a href="#" class="hover:text-gray-400">About</a></li>
+                <li><a href="#" class="hover:text-gray-400">Courses</a></li>
+                <li><a href="news.php" class="hover:text-gray-400">Updates</a></li>
+                <li><a href="#" class="hover:text-gray-400">Contact us</a></li>
+            </ul>
+            <!-- Login Button -->
+            <a href="login.php" class="hidden md:block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Login
+            </a>
+        </nav>
+    </header>
+</body>
