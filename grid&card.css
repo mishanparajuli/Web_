@@ -1,0 +1,64 @@
+. grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns each occupying 33.33% */
+            gap: 20px; /* Increase the gap for better spacing */
+           
+            padding: 10px;
+            margin-top: unset;
+        }
+
+        .grid-container > .news-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            border-radius: 10px; /* Slightly curved edges */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            text-align: center;
+            font-size: 18px; /* Adjust font size */
+            padding: 20px;
+            position: relative;
+        }
+
+        .news-card .icon-calendar {
+            pointer-events: none;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+            padding: 10px 15px;
+            background: white;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+
+        .news-card .icon-calendar_number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .news-card .icon-calendar_month {
+            font-size: 1rem;
+        }
+
+        .news-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px 10px 0 0; /* Curved edges for the top of the image */
+        }
+
+        .card-body {
+            padding: 15px; /* Adjust padding for card body */
+        }
+
+        .card-body h4 {
+            font-size: 1.25rem; /* Adjust font size for card title */
+            margin-bottom: 10px;
+        }
+
+        .card-body p {
+            font-size: 1rem; /* Adjust font size for card text */
+            margin-bottom: 20px; /* Add space between text and button */
+        }
+
+        .card-body a.btn {
+            margin-top: 10px; /* Add margin at the top of the button */
+        }
